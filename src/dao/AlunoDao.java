@@ -5,7 +5,7 @@
  */
 package dao;
 
-import connection.ConexaoBanco;
+
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import modelos.Aluno;
@@ -16,7 +16,7 @@ import modelos.Aluno;
  */
 public class AlunoDao {
   
-    private ConexaoBanco conexao;
+    private MyConection conexao;
     
     public AlunoDao()
     {
